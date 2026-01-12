@@ -267,9 +267,9 @@ export default function Sections({
       ))}
     </div>
 
-    <span style={{ color: "var(--muted)", fontWeight: 700 }}>
-      Démonstrateur technique
-    </span>
+<span style={{ color: "var(--muted)", fontWeight: 700 }}>
+  {locale === "fr" ? "Démonstrateur technique" : "Technical demo project"}
+</span>
   </article>
 ))}
           </div>
